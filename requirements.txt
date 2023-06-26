@@ -1,0 +1,5 @@
+flask
+python-dotenv
+pylint
+flask_jwt_extended
+flask_jwt
