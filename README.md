@@ -35,7 +35,7 @@ bin/test
 
 ## Write your own data store
 
-Just take [src/file-store.js](src/file-store.js) as an example, write your own read/write method
+Just take [src/file_store.py](src/file_store.py) as an example, write your own read/write method
 
 ## License
 
