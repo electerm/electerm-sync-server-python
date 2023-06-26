@@ -50,6 +50,7 @@ class TestExample(unittest.TestCase):
         # Use temporary file for testing
         with tempfile.TemporaryDirectory() as tempdir:
             # Read from unexisting file
+            write(self.test_data, self.test_user_id)
             read_data, read_code = read(self.test_user_id)
 
             # Test not found data and code
