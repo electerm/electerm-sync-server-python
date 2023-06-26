@@ -23,5 +23,7 @@ jobs:
 
     # script:
     - run: cp sample.env .env
+    - run: pip --version
+    - run: pip install -r requirements.txt
     - run: bin/test
 
