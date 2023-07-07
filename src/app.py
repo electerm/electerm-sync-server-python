@@ -22,6 +22,9 @@ def sync():
     if request.method == 'GET':
         return read(user_id)
 
+    if request.method == 'POST':
+        return 'test ok'
+
     if request.method == 'PUT':
         data = request.get_json()
         return write(data, user_id)
