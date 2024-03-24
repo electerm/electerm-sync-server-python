@@ -37,6 +37,16 @@ bin/test
 
 Just take [src/file_store.py](src/file_store.py) as an example, write your own read/write method
 
+## Sync server in other languages
+
+- [electerm-sync-server-kotlin](https://github.com/electerm/electerm-sync-server-kotlin)
+- [electerm-sync-server-vercel](https://github.com/electerm/electerm-sync-server-vercel)
+- [electerm-sync-server-rust](https://github.com/electerm/electerm-sync-server-rust)
+- [electerm-sync-server-cpp](https://github.com/electerm/electerm-sync-server-cpp)
+- [electerm-sync-server-java](https://github.com/electerm/electerm-sync-server-java)
+- [electerm-sync-server-node](https://github.com/electerm/electerm-sync-server-node)
+- [electerm-sync-server-python](https://github.com/electerm/electerm-sync-server-python)
+
 ## License
 
 MIT
