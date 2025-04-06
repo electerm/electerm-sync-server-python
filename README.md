@@ -23,6 +23,8 @@ python src/app.py
 
 # in electerm sync settings, set custom sync server with:
 # server url: http://127.0.0.1:7837
+# Then you can use http://127.0.0.1:7837/api/sync as API Url in electerm custom sync
+
 # JWT_SECRET: your JWT_SECRET in .env
 # JWT_USER_NAME: one JWT_USER in .env
 ```
