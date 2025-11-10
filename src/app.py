@@ -11,11 +11,24 @@ app.config['JWT_SECRET_KEY'] = os.environ['JWT_SECRET']
 app.config['JWT_IDENTITY_CLAIM'] = 'id'
 jwt = JWTManager(app)
 
-@app.route('/api/sync', methods=['GET', 'PUT'])
+@jwt.invalid_token_loader
+def invalid_token_callback(error_string):
+    return jsonify({'status': 'error', 'message': 'Invalid token'}), 422
+
+@jwt.expired_token_loader
+def expired_token_callback(jwt_header, jwt_payload):
+    return jsonify({'status': 'error', 'message': 'Token expired'}), 422
+
+@jwt.unauthorized_loader
+def unauthorized_callback(error_string):
+    return jsonify({'status': 'error', 'message': 'Missing or invalid token'}), 422
+
+@app.route('/api/sync', methods=['GET', 'PUT', 'POST'])
 @jwt_required()
 def sync():
     user_id = get_jwt_identity()
     users = os.environ['JWT_USERS'].split(',')
+    
     if user_id not in users:
         return jsonify({'status': 'error', 'message': 'Unauthorized!'}), 401
 

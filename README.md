@@ -1,6 +1,10 @@
+[中文](README_zh.md)
+
 # Electerm sync server python
 
 [![Build Status](https://github.com/electerm/electerm-sync-server-python/actions/workflows/linux.yml/badge.svg)](https://github.com/electerm/electerm-sync-server-python/actions)
+
+
 
 A simple electerm data sync server with python.
 
@@ -11,6 +15,11 @@ Requires python3
 ```bash
 git clone git@github.com:electerm/electerm-sync-server-python.git
 cd electerm-sync-server-python
+python -m venv venv
+# On Windows (PowerShell):
+venv\Scripts\activate
+# On Unix/Mac:
+# source venv/bin/activate
 pip install -r requirements.txt
 
 # create env file, then edit .env
