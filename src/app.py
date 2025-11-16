@@ -78,7 +78,8 @@ def test():
 if __name__ == '__main__':
   port = int(os.environ.get('PORT', 5000))
   host = os.environ.get('HOST', '127.0.0.1')
-  
+
+  logger.info("=== =========== ===")
   logger.info("=== Electerm Sync Server Starting ===")
   logger.info(f"Server will run at: http://{host}:{port}")
   logger.info(f"API endpoint: http://{host}:{port}/api/sync")
@@ -111,6 +112,7 @@ if __name__ == '__main__':
   logger.info("- JWT_SECRET: check your .env file")
   logger.info("- JWT_USER_NAME: (see authorized users above)")
   logger.info("=== Server Ready ===")
+  logger.info("=== =========== ===")
   
   app.run(
     host=host,
