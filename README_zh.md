@@ -15,7 +15,7 @@
 ```bash
 git clone git@github.com:electerm/electerm-sync-server-python.git
 cd electerm-sync-server-python
-python -m venv venv
+python3 -m venv venv
 # 在 Windows (PowerShell) 上：
 venv\Scripts\activate
 # 在 Unix/Mac 上：
@@ -25,7 +25,8 @@ pip install -r requirements.txt
 # 创建环境文件，然后编辑 .env
 cp sample.env .env
 
-python src/app.py
+# 运行服务
+python3 src/app.py
 
 # 会显示类似内容
 # server running at http://127.0.0.1:7837
@@ -46,7 +47,7 @@ bin/test
 
 ## 编写自己的数据存储
 
-以 [src/file_store.py](src/file_store.py) 为例，编写自己的读写方法
+以 [src/data_store.py](src/data_store.py) 为例，编写自己的读写方法
 
 ## 其他语言的同步服务器
 

@@ -16,17 +16,19 @@ Requires python3
 ```bash
 git clone git@github.com:electerm/electerm-sync-server-python.git
 cd electerm-sync-server-python
-python -m venv venv
+python3 -m venv venv
 # On Windows (PowerShell):
 venv\Scripts\activate
 # On Unix/Mac:
-# source venv/bin/activate
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 
 # create env file, then edit .env
 cp sample.env .env
 
-python src/app.py
+python3 src/app.py
 
 # would show something like
 # server running at http://127.0.0.1:7837
@@ -47,7 +49,7 @@ bin/test
 
 ## Write your own data store
 
-Just take [src/file_store.py](src/file_store.py) as an example, write your own read/write method
+Just take [src/data_store.py](src/data_store.py) as an example, write your own read/write method
 
 ## Sync server in other languages
 
