@@ -1,10 +1,11 @@
-[中文](README_zh.md)
+
 
 # Electerm sync server python
 
 [![Build Status](https://github.com/electerm/electerm-sync-server-python/actions/workflows/linux.yml/badge.svg)](https://github.com/electerm/electerm-sync-server-python/actions)
 
 
+[中文](README_zh.md) | [English](README.md)
 
 A simple electerm data sync server with python.
 

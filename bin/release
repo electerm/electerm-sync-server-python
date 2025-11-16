@@ -1,0 +1,10 @@
+#!/bin/bash
+cd `dirname $0`
+cd ..
+git co main
+git pull
+git pull
+git delete-branch release
+git create-branch release
+git push origin release -u
+git co -

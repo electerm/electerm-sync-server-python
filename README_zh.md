@@ -4,6 +4,8 @@
 
 [![Build Status](https://github.com/electerm/electerm-sync-server-python/actions/workflows/linux.yml/badge.svg)](https://github.com/electerm/electerm-sync-server-python/actions)
 
+[中文](README_zh.md) | [English](README.md)
+
 一个简单的 Electerm 数据同步服务器，使用 Python。
 
 ## 使用
