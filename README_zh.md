@@ -1,6 +1,6 @@
 [English](README.md)
 
-# Electerm 同步服务器 Python 版
+# Electerm 同步服务器 Python
 
 [![Build Status](https://github.com/electerm/electerm-sync-server-python/actions/workflows/linux.yml/badge.svg)](https://github.com/electerm/electerm-sync-server-python/actions)
 
