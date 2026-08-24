@@ -6,6 +6,28 @@
 
 [中文](README_zh.md) | [English](README.md)
 
+开源终端/ssh/telnet/serialport/RDP/VNC/Spice/sftp/ftp客户端(Linux, Mac, Windows, Android, HarmonyOS)。
+
+除了主流的 Windows/macOS/Linux/Android，electerm 还支持鸿蒙(HarmonyOS)，以及老旧系统——如 Ubuntu 18、Windows 7、macOS 10+，以及国产特殊 Linux 发行版如 UOS、麒麟(Kylin)、龙芯(LoongArch，含旧世界与新世界)。
+
+<p>
+  <a href="https://electerm.org">主页 / 下载</a> ·
+  <a href="https://theme.electerm.org">主题</a> ·
+  <a href="https://github.com/electerm/electerm-web-docker">Docker</a> ·
+  <a href="https://demo.electerm.org">在线演示</a> ·
+  <a href="https://github.com/electerm/electerm-android">Android</a> ·
+  <a href="https://github.com/electerm/electerm-harmony">鸿蒙</a> ·
+  <a href="https://appgallery.huawei.com/app/detail?id=org.electerm.electerm">华为应用市场</a> ·
+  <a href="https://www.microsoft.com/store/apps/9NCN7272GTFF">微软商店</a> ·
+  <a href="https://snapcraft.io/electerm">Snap 商店</a> ·
+  <a href="https://repos.electerm.org/deb">deb 仓库</a> ·
+  <a href="https://repos.electerm.org/rpm">rpm 仓库</a>
+</p>
+
+<div>🌐 <strong><a href="https://cloud.electerm.org">electerm 在线版</a></strong> — 公共免费在线 electerm 应用</div>
+<div>🤖 <strong><a href="https://ai.electerm.org">electerm AI</a></strong> — 免费为 electerm 用户提供 AI</div>
+<div>💻 <strong><a href="https://github.com/electerm/electerm-web">electerm-web</a></strong> — 运行于浏览器(支持移动设备)的 web app 版本</div>
+
 一个简单的 Electerm 数据同步服务器，使用 Python。
 
 ## 使用
